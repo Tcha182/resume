@@ -1,9 +1,11 @@
 import streamlit as st
 import base64
-
+from PIL import Image
 from datetime import date
  
-st.set_page_config(page_title='CV Corentin de Tilly', page_icon='👨‍💼')
+im = Image.open("favicon.ico")
+
+st.set_page_config(page_title='CV Corentin de Tilly', page_icon=im)
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
