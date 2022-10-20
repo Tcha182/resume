@@ -238,4 +238,4 @@ txt3('Model deployment', '`Streamlit`, `Heroku`, `GCP`')
 st.markdown('''
 ## Social Media
 ''')
-txt2('LinkedIn', 'https://www.linkedin.com/in/corentin-de-tilly/?locale=en_US')
+txt2('LinkedIn', '[https://www.linkedin.com/in/corentin-de-tilly](https://www.linkedin.com/in/corentin-de-tilly/?locale=en_US)')
