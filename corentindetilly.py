@@ -141,7 +141,7 @@ st.markdown('''
 - Business Intelligence - design and deployment of analytical tools for the controlling teams in Europe: `150+ users`. Quick developments using agile methodology. 
 - Definition of the `5 years` digital roadmap for the Europe region.
 - Management of a finance community to share best practices, methods, and tools.
-- Report automation, including algorithmic comments and scheduled updates.
+- Reports automation, including algorithmic comments and scheduled updates.
 - Direct management of `2` successive apprentices and `1` intern.
 
 ''')
