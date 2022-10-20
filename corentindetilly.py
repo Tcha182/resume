@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image
+import base64
 
 from datetime import date
  
@@ -55,8 +55,12 @@ st.write('''
 ##### *Curriculum Vitae* 
 ''')
 
-image = Image.open('cdt.png')
-st.image(image, width=150)
+with open("cdt.png", 'rb') as f:
+        image = f.read()
+
+image_bytes = base64.b64encode(image).decode()
+local_file = f'<p style="text-align:center;"><img src="data:image/jpeg;base64,{image_bytes}" alt="Image" width = 150> </p>'
+st.markdown(local_file, unsafe_allow_html = True)
 
 st.write(f'###### {my_age} years old')
 
