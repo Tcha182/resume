@@ -27,12 +27,8 @@ my_age = calculateAge(date(1994, 2, 4))
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #6699CC;">
   <a class="navbar-brand" href="https://www.linkedin.com/in/corentin-de-tilly/?locale=en_US" target="_blank">Corentin de Tilly</a>
-
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
         <a class="nav-link" href="#education">Education</a>
       </li>
