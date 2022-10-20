@@ -48,7 +48,7 @@ st.markdown("""
 # Header 
 st.write('''
 # Corentin Récopé de Tilly-Blaru
-##### *Curriculum Vitae* 
+##### *Curriculum Vitæ* 
 ''')
 
 with open("cdt.png", 'rb') as f:
