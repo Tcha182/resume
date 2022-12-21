@@ -132,7 +132,7 @@ txt('**Data Project Manager**, *Renault Group*, Boulogne-Billancourt, FRANCE',
 '2021-2022')
 st.markdown('''
 - Ad-hoc data science projects for the VP Finance of Renault Group.
-- Financial & commercial modelling and forecasting.
+- Financial & commercial modeling and forecasting.
 - Algorithmic business analytics - worldwide scope, all business units: `46bn€ turnover`, `2.7m units` sold in 2021.
 ''')
 
@@ -153,7 +153,7 @@ txt('**Marketing Business Controller**, *Renault Nederland*, Amsterdam, the NETH
 '2018-2019')
 
 st.markdown('''
-- Financial modelling. Budgeting and commercial forecasting.
+- Financial modeling. Budgeting and commercial forecasting.
 - Improvement of the analytical tools and methods.
 - Monthly closures, follow-up of the activity and monitoring of the provisions.
 - Analysis of the results and data mining, production of reports and insights to optimize commercial actions, pricing, model mix, equipment, engine mix, customer mix and car flow. 
@@ -179,7 +179,7 @@ txt('**Private Equity Intern**, *Linked to Africa Management Services*, Cape Tow
 '2016')
 st.markdown('''
 - Management of small and medium size (`USD 5M<EV<50M`) Private Equity investment projects.
-- Due diligence, financial modelling.
+- Due diligence, financial modeling.
 - Direct contact with investors, promotors, and other stakeholders at every step of the investment process.
 ''')
 
