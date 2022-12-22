@@ -64,7 +64,7 @@ st.write(f'###### {my_age} years old')
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-Passionate Data Scientist, with extensive experience in data analysis, business intelligence and project management, looking for a data related position starting end of 2022.
+Passionate Data Scientist, with extensive experience in data analysis, business intelligence and project management, looking for a data related position starting beginning of 2023.
 ''')
 
 
