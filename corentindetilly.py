@@ -156,7 +156,7 @@ st.markdown('''
 - Financial modelling. Budgeting and commercial forecasting.
 - Improvement of the analytical tools and methods.
 - Monthly closures, follow-up of the activity and monitoring of the provisions.
-- Analysis of the results and data mining, production of reports and insights to optimize commercial actions, pricing, model mix, equipment, engine mix, customer mix and car flow. 
+- Analysis of the results, production of reports and insights to optimize commercial actions, pricing, model mix, equipment, engine mix, customer mix and car flow. 
 - Control and monitoring of the marketing budgets in direct relation with the departments managers and the Benelux Marketing Director.
 ''')
 
