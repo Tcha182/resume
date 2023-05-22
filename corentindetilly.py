@@ -228,10 +228,11 @@ txt3('', '`English`: fluent')
 
 txt3('Programming', '`Python`, `VBA`')
 txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`, `DAX`')
-txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`')
-txt3('Business Intelligence', '`Power BI`, `Spotfire`, `Tableau`')
+txt3('Data visualization', '`matplotlib`, `seaborn`')
+txt3('Business Intelligence', '`Power BI`, `Spotfire`')
 txt3('Machine Learning', '`Scikit-learn`')
 txt3('Deep Learning', '`TensorFlow`')
+txt3('Natural Language Processing', '`BERT-based models`, `FastText`')
 txt3('Web development', '`HTML`, `CSS`')
 txt3('Model deployment', '`Streamlit`, `Heroku`, `GCP`')
 
