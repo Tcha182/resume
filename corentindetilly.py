@@ -108,7 +108,7 @@ st.markdown('''
 txt('**Data Scientist** - *Mines Paris* / *DataScientest* - Paris, FRANCE',
 '2021-2022')
 st.markdown('''
-- programming (Python), dataviz, machine learning, big data, deep learning, reinforcement learning.
+- Programming (Python), dataviz, machine learning, big data, deep learning, reinforcement learning.
 - Graduation project (team of 3): "Tennis betting – Beat the bookmakers with data science".
 - `9 months` training.
 ''')
