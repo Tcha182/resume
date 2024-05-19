@@ -71,8 +71,6 @@ def calculateAge(birthDate):
 
 my_age = calculateAge(date(1994, 2, 4))
 
-
-
 # Header 
 st.markdown('''
 # Corentin Récopé de Tilly-Blaru
@@ -129,9 +127,7 @@ def txt4(a, b, c):
     st.markdown(c)
 
 #####################
-st.markdown('''
-## Education
-''')
+st.markdown('''## Education''')
 
 txt('**Data Scientist** - *Mines Paris* / *DataScientest* - Paris, FRANCE',
 '**2021-2022**')
@@ -152,9 +148,7 @@ st.markdown('''
 
 
 #####################
-st.markdown('''
-## Work Experience
-''')
+st.markdown('''## Work Experience''')
 
 txt('**Data Analyst**, *RATP Dev*, Paris, FRANCE',
 '**2023-Present**')
@@ -167,7 +161,7 @@ st.markdown('''
 txt('**Data Project Manager**, *Renault Group*, Boulogne-Billancourt, FRANCE',
 '**2021-2022**')
 st.markdown('''
-- Executed ad-hoc data science projects for the VP Finance, enhancing financial and commercial modeling and forecasting.
+- Executed ad-hoc data science projects for the group's VP Finance, enhancing financial and commercial modeling and forecasting.
 - Algorithmic business analytics - worldwide scope, all business units: `46bn€ turnover`, `2.7m units` sold in 2021.
 ''')
 
@@ -179,7 +173,7 @@ st.markdown('''
 - Defined the `5-year` digital roadmap for the Europe region.
 - Managed a finance community to share best practices, methods, and tools.
 - Automated reporting processes, incorporating algorithmic comments and scheduled updates.
-- Supervised two successive apprentices and one intern.
+- Supervised `2` successive apprentices and `1` intern.
 
 ''')
 
@@ -188,10 +182,9 @@ txt('**Marketing Business Controller**, *Renault Nederland*, Amsterdam, the NETH
 '**2018-2019**')
 
 st.markdown('''
-- Developed financial models, budgeting, and commercial forecasting.
-- Enhanced analytical tools and methods.
-- Conducted monthly closures, activity follow-ups, and provision monitoring.
+- Enhanced the margin calculation tools, pricing models, analytical tools and methods for the marketing department.
 - Analyzed results and produced reports to optimize commercial actions, pricing, model mix, equipment, engine mix, customer mix, and car flow.
+- Conducted monthly closures, activity follow-ups, and provision monitoring.
 - Controlled and monitored marketing budgets, coordinating directly with department managers and the Benelux Marketing Director.
 ''')
 
@@ -257,9 +250,7 @@ txt4('Connect4 agent', 'A Python agent to play connect4. It ranked in the `top 1
 
 
 #####################
-st.markdown('''
-## Skills
-''')
+st.markdown('''## Skills''')
 
 txt3('Languages', '`French`: native language')
 txt3('', '`English`: fluent')
@@ -276,9 +267,7 @@ txt3('Model deployment', '`Django`, `Streamlit`, `Docker`, `GCP`')
 
 
 #####################
-st.markdown('''
-## Interests
-''')
+st.markdown('''## Interests''')
 
 txt('**Sports**', "")
 
@@ -295,7 +284,6 @@ st.markdown('Piano, Travelling, Raspberry pi, Crafting')
 
 txt('**Others**', "")
 st.markdown('Licensed driver')
-
 
 #st.markdown(''' ## Contact ''')
 
