@@ -287,4 +287,4 @@ st.markdown('Licensed driver')
 
 #st.markdown(''' ## Contact ''')
 
-d2.link_button(":mailbox: Contact me", form_url, use_container_width=True)
+d2.link_button(":email: Contact me", form_url, use_container_width=True)
