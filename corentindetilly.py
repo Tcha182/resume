@@ -22,7 +22,10 @@ st.set_page_config(page_title='CV Corentin de Tilly', page_icon=im)
 linkedin_svg = open("linkedin.svg", "r").read()
 github_svg = open("github.svg", "r").read()
 
-form_url = "https://formsubmit.co/el/wixece"
+form_url = "https://forms.gle/SZPfbQgJq5UfRwdD7"
+form_iframe_html = """
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqrrgnsTofxaEJcJdYm8pgvzGY47RqZDqWSLL2tJoAfYK9Vg/viewform?embedded=true" width="640" height="920" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+    """
 
 # Apply custom CSS
 with open("style.css") as f:
@@ -287,4 +290,8 @@ st.markdown('Licensed driver')
 
 #st.markdown(''' ## Contact ''')
 
-d2.link_button(":email: Contact me", form_url, use_container_width=True)
+#d2.link_button(":email: Contact me", form_url, use_container_width=True)
+
+form_popover = d2.popover(":email: Contact me", use_container_width=True)
+
+form_popover.markdown(form_iframe_html, unsafe_allow_html=True)
