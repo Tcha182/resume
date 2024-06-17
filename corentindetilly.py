@@ -24,7 +24,7 @@ github_svg = open("github.svg", "r").read()
 
 form_url = "https://forms.gle/SZPfbQgJq5UfRwdD7"
 form_iframe_html = """
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqrrgnsTofxaEJcJdYm8pgvzGY47RqZDqWSLL2tJoAfYK9Vg/viewform?embedded=true" width="375" height="1030" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqrrgnsTofxaEJcJdYm8pgvzGY47RqZDqWSLL2tJoAfYK9Vg/viewform?embedded=true" width="375" height="1040" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
     """
 
 # Apply custom CSS
