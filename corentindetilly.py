@@ -274,7 +274,7 @@ st.markdown('''## Interests''')
 
 txt('**Sports**', "")
 
-txt3('Sailing (skipper)', '2023: Grenadines Islands - STAR VI *Lagoon 42* - crew of `9`')
+txt3('Sailing (skipper)', '2023: Grenadine Islands - STAR VI *Lagoon 42* - crew of `9`')
 txt3('', '2022: South Brittany - Camanoe 3 *RM 890* - crew of `2`')
 txt3('Climbing', 'top rope `7a`, lead climbing `6b`, bouldering `6b`')
 txt3('Kitesurfing', '')
