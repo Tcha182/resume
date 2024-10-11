@@ -24,7 +24,7 @@ github_svg = open("github.svg", "r").read()
 
 form_url = "https://forms.gle/SZPfbQgJq5UfRwdD7"
 form_iframe_html = """
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqrrgnsTofxaEJcJdYm8pgvzGY47RqZDqWSLL2tJoAfYK9Vg/viewform?embedded=true" width="375" height="1100" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqrrgnsTofxaEJcJdYm8pgvzGY47RqZDqWSLL2tJoAfYK9Vg/viewform?embedded=true" width="640" height="920" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
     """
 
 # Apply custom CSS
@@ -247,6 +247,8 @@ st.markdown('''
 
 st.markdown(''' ## Projects ''')
 
+txt4('Recettes de copains', 'An app to share recipes with your friends from as little as a picture.', 'Available [here](https://recettes-de-copains.fr//).')
+
 txt4('Face quiz', 'A GPT-powered game in which the goal is to identify well-known individuals using a portrait and a tagline.', 'Available [here](https://facequiz.streamlit.app//).')
 
 txt4('Connect4 agent', 'A Python agent to play connect4. It ranked in the `top 10%` of the Kaggle [ConnectX](https://www.kaggle.com/competitions/connectx/leaderboard) competition.', 'Try it [here](https://connect4.streamlit.app/) (desktop).')
@@ -259,14 +261,15 @@ txt3('Languages', '`French`: native language')
 txt3('', '`English`: fluent')
 
 
-txt3('Programming', '`Python`, `VBA`')
-txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`, `DAX`')
-txt3('Data visualization', '`plotly`, `seaborn`')
-txt3('Business Intelligence', '`Power BI`, `Spotfire`, `Tableau`')
+txt3('Programming', '`Python`, `VBA`, `Docker`')
+txt3('Data', '`Snowflake`, `SQL`')
+txt3('Visualization', '`plotly`, `seaborn`, `folium`')
+txt3('Prototyping', '`Streamlit`')
+txt3('Business Intelligence', '`Power BI`')
 txt3('Machine Learning', '`Scikit-learn`')
-txt3('Deep Learning', '`TensorFlow`')
-txt3('Web development', '`HTML`, `CSS`')
-txt3('Model deployment', '`Django`, `Streamlit`, `Docker`, `GCP`')
+txt3('Deep Learning', '`PyTorch`')
+txt3('Web development', '`Django`, `HTML`, `Tailwind CSS`')
+txt3('Cloud', '`GCP`, `AWS`, `Heroku`')
 
 
 #####################
@@ -274,7 +277,8 @@ st.markdown('''## Interests''')
 
 txt('**Sports**', "")
 
-txt3('Sailing (skipper)', '2023: Grenadine Islands - STAR VI *Lagoon 42* - crew of `9`')
+txt3('Sailing (skipper)', '2024: Balearic Islands -  *Bali 4.5* - crew of `9`')
+txt3('', '2023: Grenadines Islands - STAR VI *Lagoon 42* - crew of `9`')
 txt3('', '2022: South Brittany - Camanoe 3 *RM 890* - crew of `2`')
 txt3('Climbing', 'top rope `7a`, lead climbing `6b`, bouldering `6b`')
 txt3('Kitesurfing', '')
