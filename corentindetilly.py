@@ -29,7 +29,7 @@ form_iframe_html = """
 
 # Apply custom CSS
 with open("style.css") as f:
-    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
 def navbar3():
@@ -44,8 +44,8 @@ def navbar3():
           <span></span>
       </label>
       <ul>
-          <li><a href="#education">Education</a></li>
           <li><a href="#work-experience">Work Experience</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#interests">Interests</a></li>
@@ -130,28 +130,10 @@ def txt4(a, b, c):
     st.markdown(c)
 
 #####################
-st.markdown('''## Education''')
+# --- Work Experience ---
 
-txt('**Data Scientist** - *Mines Paris* / *DataScientest* - Paris, FRANCE',
-'**2021-2022**')
-st.markdown('''
-- programming (Python), machine learning, big data, deep learning, reinforcement learning, dataviz.
-- Graduation project (team of 3): "Tennis betting – Beat the bookmakers with data science".
-- `9 months` training.
-''')
+st.markdown('''## Work Experience''', unsafe_allow_html=False)
 
-txt('**Bachelor of Business Administration** - *NEOMA Business School* - Reims, FRANCE',
-'**2012-2017**')
-st.markdown('''
-- Major: International Business Management.
-- Minor: European Union Policy.
-- `2 years` exchange as a double degree student in Breda :flag-nl:.
-''')
-
-
-
-#####################
-st.markdown('''## Work Experience''')
 
 txt('**Data Analyst**, *RATP Dev*, Paris, FRANCE',
 '**2023-Present**')
@@ -190,6 +172,7 @@ st.markdown('''
 - Conducted monthly closures, activity follow-ups, and provision monitoring.
 - Controlled and monitored marketing budgets, coordinating directly with department managers and the Benelux Marketing Director.
 ''')
+
 
 
 txt('**Assistant Controller**, *Renault Benelux*, Amsterdam, the NETHERLANDS', 
@@ -242,8 +225,31 @@ st.markdown('''
 - Summer internship.
 ''')
 
+#####################
+# --- Education ---
+
+st.markdown('''## Education''', unsafe_allow_html=False)
+
+
+txt('**Data Scientist** - *Mines Paris* / *DataScientest* - Paris, FRANCE',
+'**2021-2022**')
+st.markdown('''
+- programming (Python), machine learning, big data, deep learning, reinforcement learning, dataviz.
+- Graduation project (team of 3): "Tennis betting – Beat the bookmakers with data science".
+- `9 months` training.
+''')
+
+
+txt('**Bachelor of Business Administration** - *NEOMA Business School* - Reims, FRANCE',
+'**2012-2017**')
+st.markdown('''
+- Major: International Business Management.
+- Minor: European Union Policy.
+- `2 years` exchange as a double degree student in Breda :flag-nl:.
+''')
 
 #####################
+# --- Projects ---
 
 st.markdown(''' ## Projects ''')
 
@@ -255,11 +261,16 @@ txt4('Connect4 agent', 'A Python agent to play connect4. It ranked in the `top 1
 
 
 #####################
+# --- Skills ---
+
 st.markdown('''## Skills''')
+
+# Languages
 
 txt3('Languages', '`French`: native language')
 txt3('', '`English`: fluent')
 
+# Technical Skills
 
 txt3('Programming', '`Python`, `VBA`, `Docker`')
 txt3('Data', '`Snowflake`, `SQL`')
@@ -271,9 +282,12 @@ txt3('Deep Learning', '`PyTorch`')
 txt3('Web development', '`Django`, `HTML`, `Tailwind CSS`')
 txt3('Cloud', '`GCP`, `AWS`, `Heroku`')
 
-
 #####################
+# --- Interests ---
+
 st.markdown('''## Interests''')
+
+# Sports
 
 txt('**Sports**', "")
 
@@ -285,17 +299,18 @@ txt3('Kitesurfing', '')
 txt3('Diving', '`PADI advanced`')
 txt3('Kick Boxing',"")
 
+# Hobbies
+
 txt('**Hobbies**', "")
 
 st.markdown('Piano, Travelling, Raspberry pi, Crafting')
 
+# Others
+
 txt('**Others**', "")
 st.markdown('Licensed driver')
 
-#st.markdown(''' ## Contact ''')
-
-#d2.link_button(":email: Contact me", form_url, use_container_width=True)
+# Contact Section (Popover)
 
 form_popover = d2.popover(":email: Contact me", use_container_width=True)
-
 form_popover.markdown(form_iframe_html, unsafe_allow_html=True)
