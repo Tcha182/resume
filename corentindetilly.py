@@ -132,7 +132,7 @@ def txt4(a, b, c):
 #####################
 # --- Work Experience ---
 
-st.markdown('''## Work Experience''', unsafe_allow_html=False)
+st.markdown(''' ## Work Experience''', unsafe_allow_html=False)
 
 
 txt('**Data Analyst**, *RATP Dev*, Paris, FRANCE',
@@ -228,7 +228,7 @@ st.markdown('''
 #####################
 # --- Education ---
 
-st.markdown('''## Education''', unsafe_allow_html=False)
+st.markdown(''' ## Education''', unsafe_allow_html=False)
 
 
 txt('**Data Scientist** - *Mines Paris* / *DataScientest* - Paris, FRANCE',
